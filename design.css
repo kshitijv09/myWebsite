@@ -1,0 +1,35 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#left-panel {
+  width: 20%;
+  height: 100vh;
+  background-color: #f2f2f2;
+  float: left;
+}
+
+#left-panel ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#left-panel li {
+  padding: 10px;
+  cursor: pointer;
+  color: purple;
+}
+
+/* CSS for the content area */
+#content {
+  width: 80%;
+  height: 100vh;
+  float: right;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* CSS for the active state of the left panel */
+.active {
+  background-color: #ccc;
+}
